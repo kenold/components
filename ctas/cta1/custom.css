@@ -1,10 +1,12 @@
 .cta {
     border: 1px solid #E6E6E6;
     border-radius: 5px;
-    /* margin: 50px 100px 0;
-    padding: 45px 50px 28px; */
+    margin: 40px 50px 0;
+    padding: 30px 20px 28px;
 }
-
+.cta__text {
+    text-align: center;
+}
 .cta__title {
     font-size: 27px;
     padding-bottom: 2px;
@@ -12,9 +14,12 @@
 .cta__description {
     font-size: 18px;
 }
+.cta__button {
+    text-align: center;
+}
 .cta__button-link {
     background-color: #FF3A46;
-    min-width: 188px;
+    /* min-width: 188px; */
     line-height: 48px;
     border-style: solid;
     border-width: 2px;
@@ -32,12 +37,21 @@
     box-shadow: none;
 }
 
-@media (min-width: 576px) { ... }
+/* @media (min-width: 576px) {  } */
 
 @media (min-width: 768px) {
-
+    .cta {
+        margin: 50px 100px 0;
+        padding: 45px 50px 28px;
+    }
+    .cta__text {
+        text-align: left;
+    }
+    .cta__button {
+        text-align: right;
+    }
 }
 
-@media (min-width: 992px) { ... }
+/* @media (min-width: 992px) { } */
 
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 1200px) { } */
